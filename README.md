@@ -13,23 +13,33 @@ https://orbstack.dev
 ## 2- Download demo
 you can download the files from [here](https://github.com/theSEClub/docker-demo/archive/refs/heads/main.zip)\
 or clone the repository using `git`\
-```git clone https://github.com/theSEClub/docker-demo```
+```
+git clone https://github.com/theSEClub/docker-demo
+```
 
 
 ## 3- Open Terminal in the project folder
 you can do this by shift + right click `Open in Terminal` in *Windows*\
 or use the terminal like a pro 🔥\
-```cd docker-demo```
+```
+cd docker-demo
+```
 
 
 ## 4- Build docker image
-```docker build . -t seclub-image```
+```
+docker build . -t seclub-image
+```
 
 
 ## 5- Run the container
-```docker run -p 8000:5000 docker-demo```
+```
+docker run -p 8000:5000 seclub-image
+```
 
 
 ## 6- Open the browser
 type this url in your browser to see the image working\
-```http://localhost:8000```
+```
+http://localhost:8000
+```
